@@ -9,3 +9,4 @@ services:
     environment:
       ADVERTISED_HOST: 127.0.0.1  # single node so can bind to localhost..
       ADVERTISED_PORT: 9092
+      JMX_PORT: 9999
